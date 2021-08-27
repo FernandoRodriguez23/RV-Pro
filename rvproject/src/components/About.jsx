@@ -2,8 +2,10 @@ import React from 'react'
 
 function About() {
     return (
-        <div>
-            About
+        <div className="about">
+            <div className="sub">
+                biukyt
+            </div>
         </div>
     )
 }
