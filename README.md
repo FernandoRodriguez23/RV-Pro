@@ -23,3 +23,13 @@ ____________________________________
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)
 >
 > [Wireframe 2](rvproject/src/img/WireFrame1.jpg)
+
+_______________________________
+
+### Colors
+
+> Red: hsl(358, 85%, 50%)
+>
+> Grey: hsl(0, 0%, 24%)
+>
+> White: 	hsl(0, 0%, 96%)
