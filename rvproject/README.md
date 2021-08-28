@@ -18,6 +18,17 @@ _________________________________
 
 ____________________________________
 
+
+### Day 2
+
+> Baseline themes & Files
+>
+> NavBar Started
+>
+> Getting Orginized and Start Coding
+
+___________________________________
+
 ### Useful Links
 
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)
