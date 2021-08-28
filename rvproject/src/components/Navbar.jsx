@@ -1,13 +1,11 @@
-import React from 'react'
+import React, { useState } from "react";
 
 function Navbar() {
-    return (
-        <div className="navbar">
-            <div className="nav-body">
-                
-            </div>
-        </div>
-    )
+  return (
+    <div className="navbar">
+      <div className="nav-body"></div>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
