@@ -2,3 +2,12 @@
 @use '../util/variables' as *;
 @use '../util/mixins' as *;
 
+
+.navbar{
+    background: $secondary-2;
+    box-shadow: $light-shadow;
+    .links{
+        font-size: 1.2rem;
+        color: $primary-2;
+    }
+}

@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="about">
             <div className="sub">
-                biukyt
+                About
             </div>
         </div>
     )
