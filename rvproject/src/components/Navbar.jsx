@@ -3,7 +3,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div className="navbar">
+        <nav className="navbar">
             <div className="nav-body">
                 <div className="nav-sec-links">
                     <ul className="links">
@@ -14,7 +14,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 

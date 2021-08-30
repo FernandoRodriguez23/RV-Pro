@@ -201,8 +201,18 @@ p {
 .navbar {
   background: #403a3a;
   box-shadow: 0 5px 15px rbga(0, 0, 0, 0.1);
+  display: inline-block;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar .links li {
+.navbar .navbar-body {
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+}
+.navbar .navbar-body .links li {
   font-size: 1.2rem;
   color: #ed1d23;
   text-transform: capitalize;
@@ -210,6 +220,7 @@ p {
   padding: 0.5rem 1rem;
   transition: all 0.5s linear;
   position: relative;
+  display: block;
 }
 
 @media only screen and (min-width: 768px) {

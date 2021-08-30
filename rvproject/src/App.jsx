@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navbar />
+       <Navbar />
       {/* <Slideshow />
       <About />
       <AboutColumns />
@@ -20,6 +20,7 @@ function App() {
       <Gallery />
       <Footer />
     </>
+    
   );
 }
 
