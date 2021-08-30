@@ -6,84 +6,83 @@
 .navbar{
     background: $grey-0;
     box-shadow: $light-shadow;
-    // .nav-body{
-    //     @include flex-space;
-    //     padding: 1rem;
-    // }
-    // .nav-sec-links{
-    //     // height: 0;
-    //     // overflow: hidden;
-    //     // &.show{
-    //     //     height: auto;
-    //     // }
-    // }
-    .links li{
-        font-size: 1.2rem;
-        color: $primary-4;
-        text-transform: capitalize;
-        letter-spacing: $spacing;
-        padding: 0.5rem 1rem;
-        transition: $transition;
-        position: relative;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-@include tablet {
-    .navbar{
-        .nav-center{
-            max-width: 1200px;
-            @include center-auto;
-            @include flex-space;
-            padding: 1rem;
-            
-            .logo{
-                height: 40px;
-            }
-
-            .nav-header{
-                padding: 0;
-            }
-            .nav-toggle{
-                display: none;
-            }
-            .links-container{
-                height: auto;
-            }
-            .links{
-                display: flex;
-                li{
-                    padding: 0;
-                    margin: 0 1rem;
-                    &:hover{
-                        padding: 0;
-                        background: transparent;
-                    }
-                }
-            }
-            // .social-icons{
-            //     display: flex;
-            //     a{
-            //         margin: 0  0.5rem;
-            //         color: $primary-4;
-            //         transition: $transition;
-            //         &:hover{
-            //             color: $primary-7;
-            //         }
-
-            //         &:visited{
-            //             color: inherit;
-            //         }
-            //     }
-            // }
+    display: inline-block;
+    font-size: 1.2rem;
+    @include flex-space;
+    .navbar-body{
+        overflow: hidden;
+        position: fixed;
+        text-align: center;
+        .links li{
+            font-size: 1.2rem;
+            color: $primary-4;
+            text-transform: capitalize;
+            letter-spacing: $spacing;
+            padding: 0.5rem 1rem;
+            transition: $transition;
+            position: relative;
+            display: block;
         }
     }
+    
 }
+
+
+
+
+
+
+
+
+
+
+// @include tablet {
+//     .navbar{
+//         .nav-center{
+//             max-width: 1200px;
+//             @include center-auto;
+//             @include flex-space;
+//             padding: 1rem;
+            
+//             .logo{
+//                 height: 40px;
+//             }
+
+//             .nav-header{
+//                 padding: 0;
+//             }
+//             .nav-toggle{
+//                 display: none;
+//             }
+//             .links-container{
+//                 height: auto;
+//             }
+//             .links{
+//                 display: flex;
+//                 li{
+//                     padding: 0;
+//                     margin: 0 1rem;
+//                     &:hover{
+//                         padding: 0;
+//                         background: transparent;
+//                     }
+//                 }
+//             }
+//             // .social-icons{
+//             //     display: flex;
+//             //     a{
+//             //         margin: 0  0.5rem;
+//             //         color: $primary-4;
+//             //         transition: $transition;
+//             //         &:hover{
+//             //             color: $primary-7;
+//             //         }
+
+//             //         &:visited{
+//             //             color: inherit;
+//             //         }
+//             //     }
+//             // }
+//         }
+//     }
+// }
