@@ -1,12 +1,33 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const Gallery = () => {
   return (
-    <div>
+    <div className="gallery-container">
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
+
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
+
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
+
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
+
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
       
+      <div class="gallery">
+        <img src="https://picsum.photos/400/400" alt="galleryimg" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
-
+export default Gallery;

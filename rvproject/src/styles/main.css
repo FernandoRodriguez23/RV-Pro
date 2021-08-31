@@ -270,11 +270,26 @@ p {
 }
 
 .footer {
-  padding: 0;
+  position: relative;
+  background-color: #ed1d23;
+}
+.footer p {
+  color: black;
+  font-weight: 500;
 }
 
-.gallery {
-  padding: 0;
+.gallery-container {
+  width: 100%;
+}
+.gallery-container .gallery {
+  margin: 15px;
+  display: inline-block;
+  width: 220px;
+  right: 0;
+}
+.gallery-container .gallery img {
+  width: 100%;
+  height: auto;
 }
 
 .about {
