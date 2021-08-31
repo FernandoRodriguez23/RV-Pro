@@ -8,6 +8,12 @@
     box-shadow: $light-shadow;
     display: inline-block;
     font-size: 1.2rem;
+    margin-bottom: 10px;
+    a{
+        text-decoration: none;
+        color: $primary-4;
+        font-size: 1.6rem;
+    }
     @include flex-space;
     .navbar-body{
         overflow: hidden;
@@ -25,8 +31,7 @@
             letter-spacing: $spacing;
             padding: 0.5rem 1rem;
             transition: $transition;
-            position: relative;
-            display: block;
+            display: inline-block;
             .link{
                 cursor: pointer;
             }

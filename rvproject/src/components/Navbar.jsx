@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import {links, socials} from '../utils/const';
 
 function Navbar() {
     return (
@@ -10,14 +9,10 @@ function Navbar() {
                 </div>
                 <div className="nav-sec-links">
                     <ul className="links">
-                       {links.filter((link) => {
-                           const {id, text, page} = link;
-                           return (
-                               <li key={id}>
-                                   <a to={page}>{text}</a>
-                               </li>
-                           )
-                       })}
+                        <li className="link"><a href="#">About</a></li>
+                        <li className="link"><a href="#">SlideShow</a></li>
+                        <li className="link"><a href="#">Gallery</a></li>
+                        <li className="link"><a href="#">Footer</a></li>
                     </ul>
                 </div>
             </div>

@@ -2,6 +2,12 @@
 @use '../util/variables' as *;
 @use '../util/mixins' as *;
 
-.slideshow {
+.Slideshow-container {
     padding: 0;
+    @include center-auto;
+    margin-bottom: 10px;
+    .slide-img{
+        @include flex-center;
+        height: 400px;
+    }
 }

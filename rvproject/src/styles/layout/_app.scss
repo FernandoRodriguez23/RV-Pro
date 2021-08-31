@@ -15,6 +15,10 @@ main{
     @include flex-center;
 }
 
+.web-container{
+    display: grid;
+}
+
 .container{
     width: 90vw;
     margin: 5rem 0;
