@@ -14,6 +14,11 @@ function App() {
       <AboutColumns />
       <Gallery />
       <Footer /> */}
+      <About />
+      <Slideshow />
+      <AboutColumns />
+      <Gallery />
+      <Footer />
     </>
     
   );

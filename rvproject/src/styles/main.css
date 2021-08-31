@@ -229,8 +229,39 @@ p {
   cursor: pointer;
 }
 
-.aboutColumns {
-  padding: 0;
+.row::after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-1 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #d41118;
+  color: white;
+}
+
+.column-2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #ed1d23;
+  margin: 0 5px 0 5px;
+  color: white;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #f04248;
+}
+
+p {
+  color: white;
 }
 
 .footer {
