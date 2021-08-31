@@ -15,7 +15,7 @@ function App() {
       <Gallery />
       <Footer />
     </div>
-    
+    // Make slide show fill white space, do that by making the componentrs into secctions and filling it that way if that works
   );
 }
 

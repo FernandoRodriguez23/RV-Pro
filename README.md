@@ -28,6 +28,16 @@ ____________________________________
 
 ___________________________________
 
+### Day 3
+
+> Progress with website
+>
+> Troubles with Nav and SlideShow
+>
+> Styles in small Progress
+
+__________________________________
+
 ### Useful Links
 
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)
