@@ -223,42 +223,39 @@ p {
   display: block;
 }
 
-@media only screen and (min-width: 768px) {
-  .navbar .nav-center {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-  .navbar .nav-center .logo {
-    height: 40px;
-  }
-  .navbar .nav-center .nav-header {
-    padding: 0;
-  }
-  .navbar .nav-center .nav-toggle {
-    display: none;
-  }
-  .navbar .nav-center .links-container {
-    height: auto;
-  }
-  .navbar .nav-center .links {
-    display: flex;
-  }
-  .navbar .nav-center .links li {
-    padding: 0;
-    margin: 0 1rem;
-  }
-  .navbar .nav-center .links li:hover {
-    padding: 0;
-    background: transparent;
-  }
+.row::after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
 }
-.aboutColumns {
-  padding: 0;
+
+.column-1 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #d41118;
+  color: white;
+}
+
+.column-2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #ed1d23;
+  margin: 0 5px 0 5px;
+  color: white;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #f04248;
+}
+
+p {
+  color: white;
 }
 
 .footer {

@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState } from 'react'
 
 const Gallery = () => {
-  return <div>Gallery</div>;
-};
+  return (
+    <div>
+      Gallery
+    </div>
+  )
+}
 
-export default Gallery;
+export default Gallery
+

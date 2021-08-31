@@ -1,3 +1,38 @@
-.aboutColumns {
-    padding: 0;
+@use '../themes/defualtThemes' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+.row::after {
+  box-sizing: border-box;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-1 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: $primary-3;
+  color: white;
+}
+
+.column-2 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: $primary-4;
+  margin: 0 5px 0 5px;
+  color: white;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: $primary-5;
+}
+
+p {
+  color: white;
 }
