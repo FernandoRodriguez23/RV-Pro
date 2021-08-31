@@ -2,6 +2,16 @@
 @use '../util/variables' as *;
 @use '../util/mixins' as *;
 
-.gallery {
-    padding: 0;
+.gallery-container {
+    width: 100%;
+  .gallery {
+    margin: 15px;
+    display: inline-block;
+    width: 220px;
+    right: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
 }

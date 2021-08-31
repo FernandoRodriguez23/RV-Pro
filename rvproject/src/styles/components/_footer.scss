@@ -3,5 +3,11 @@
 @use '../util/mixins' as *;
 
 .footer {
-    padding: 0;
+    position: relative;
+    background-color: $primary-4;
+    p {
+        color: black;
+        font-weight: 500;
+    }
 }
+

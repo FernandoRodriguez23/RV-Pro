@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div className="footer">
+      <p>Footer</p>
+    </div>
+  );
 }
 
 export default Footer;
