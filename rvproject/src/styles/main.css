@@ -212,6 +212,9 @@ p {
   position: fixed;
   text-align: center;
 }
+.navbar .navbar-body .nav-header .logo {
+  height: 30px;
+}
 .navbar .navbar-body .links li {
   font-size: 1.2rem;
   color: #ed1d23;
@@ -221,6 +224,9 @@ p {
   transition: all 0.5s linear;
   position: relative;
   display: block;
+}
+.navbar .navbar-body .links li .link {
+  cursor: pointer;
 }
 
 .row::after {

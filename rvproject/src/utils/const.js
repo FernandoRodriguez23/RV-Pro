@@ -1,14 +1,30 @@
 import React from 'react'
 import {FaFacebook, FaTwitter} from 'react-icons/fa'
-//import {About, Navbar, Slideshow, Footer} from '../components/About'
+import {Gallery, About, Footer, Slideshow} from '../components'
 
-// export const links = [
-//     {
-//         id: 1,
-//         text: 'About',
-//         //component: <About />
-//     }
-// ]
+
+export const links = [
+    {
+        id: 1,
+        text: 'About',
+        page: <About />
+    },
+    {
+        id: 2,
+        text: 'SlideShow',
+        page: <Slideshow />
+    },
+    {
+        id: 3,
+        text: 'Galleray',
+        page: <Gallery />
+    },
+    {
+        id: 4,
+        text: 'Footer',
+        page: <Footer />
+    }
+]
 
 
 

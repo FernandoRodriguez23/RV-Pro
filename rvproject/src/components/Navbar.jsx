@@ -1,16 +1,23 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
+import {links, socials} from '../utils/const';
 
 function Navbar() {
     return (
         <nav className="navbar">
             <div className="nav-body">
+                <div className="nav-header">
+                    {/* <img src="" alt="logo" className="logo" /> */}
+                </div>
                 <div className="nav-sec-links">
                     <ul className="links">
-                        <li className="link">About</li>
-                        <li className="link">SlideShow</li>
-                        <li className="link">Gallery</li>
-                        <li className="link">Footer</li>
+                       {links.filter((link) => {
+                           const {id, text, page} = link;
+                           return (
+                               <li key={id}>
+                                   <a to={page}>{text}</a>
+                               </li>
+                           )
+                       })}
                     </ul>
                 </div>
             </div>
