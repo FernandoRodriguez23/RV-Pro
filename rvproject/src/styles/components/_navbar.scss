@@ -4,8 +4,13 @@
 
 
 .navbar{
-    background: $white;
+    background: $grey-0;
     box-shadow: $light-shadow;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
     a{
         text-decoration: none;
         color: $primary-4;
@@ -21,6 +26,9 @@
         font-size: 1.5rem;
         color: $primary-4;
         transition: $transition;
+        background: transparent;
+        outline: none;
+        border: none;
         &:hover{
             color: $primary-1;
             transform: rotate(90deg);
@@ -65,18 +73,7 @@
             }
         }
     }
-    .social-icons{
-        display: flex;
-        justify-content: space-around;
-        height: 0;
-        overflow: hidden;
-        &.show{
-            height: auto;
-        }
-        li{
-            margin: 0.5rem 1rem;
-        }
-    }
+    
 }
 }
 
@@ -112,21 +109,6 @@
                     &:hover{
                         padding: 0;
                         background: transparent;
-                    }
-                }
-            }
-            .social-icons{
-                display: flex;
-                a{
-                    margin: 0  0.5rem;
-                    color: $primary-4;
-                    transition: $transition;
-                    &:hover{
-                        color: $primary-7;
-                    }
-
-                    &:visited{
-                        color: inherit;
                     }
                 }
             }
