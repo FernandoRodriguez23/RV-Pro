@@ -33,12 +33,12 @@ export const socials = [
     {
         id: 1,
         url: 'https://www.facebook.com',
-        icon: <FaFacebook />
+        icon: <FaFacebook size={40} />
     },
     {
         id: 2,
         url: 'https://www.twitter.com',
-        icon: <FaTwitter />
+        icon: <FaTwitter size={40} />
     }
 ];
 

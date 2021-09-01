@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Slideshow from "./components/Slideshow"
+// import Slideshow from "./components/Slideshow"
 import AboutColumns from "./components/AboutColumns"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer";
@@ -10,7 +10,7 @@ function App() {
     <div className="web-container">
       <Navbar />
       <About />
-      <Slideshow />
+      {/* <Slideshow /> */}
       <AboutColumns />
       <Gallery />
       <Footer />
