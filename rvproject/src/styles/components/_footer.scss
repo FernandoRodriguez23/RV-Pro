@@ -4,10 +4,16 @@
 
 .footer {
     position: relative;
+    // transform: rotate(1deg);
+    height: auto;
+    text-align: center;
+    margin-top: 5rem;
     background-color: $primary-4;
+    padding-top: 2rem;
     p {
         color: black;
         font-weight: 500;
     }
+   
 }
 

@@ -331,36 +331,100 @@ p {
 }
 
 .column-1 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: #d41118;
   color: white;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+  height: 30rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column-2 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: #ed1d23;
-  margin: 0 5px 0 5px;
   color: white;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+  height: 30rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column-3 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: #f04248;
+  margin-bottom: 0.5rem;
+  color: white;
+  box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+  height: 30rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
   color: white;
 }
 
+@media only screen and (min-width: 768px) {
+  .row::after {
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .column-1 {
+    margin-left: 0.5%;
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-color: #d41118;
+    color: white;
+    box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+    height: 30rem;
+  }
+
+  .column-2 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-color: #ed1d23;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+    height: 30rem;
+  }
+
+  .column-3 {
+    float: left;
+    height: 30rem;
+    width: 33%;
+    padding: 10px;
+    background-color: #f04248;
+    color: white;
+    box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+  }
+}
 .footer {
   position: relative;
+  height: auto;
+  text-align: center;
+  margin-top: 5rem;
   background-color: #ed1d23;
+  padding-top: 2rem;
 }
 .footer p {
   color: black;
@@ -368,19 +432,31 @@ p {
 }
 
 .gallery-container {
-  width: 100%;
-}
-.gallery-container .gallery {
-  margin: 15px;
-  display: inline-block;
-  width: 220px;
-  right: 0;
-}
-.gallery-container .gallery img {
-  width: 100%;
-  height: auto;
+  display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .gallery-container {
+    display: initial;
+    width: 100%;
+  }
+  .gallery-container .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+  }
+  .gallery-container .gallery {
+    display: inline-block;
+    width: auto;
+    right: 0;
+    margin: 5px;
+    box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
+  }
+  .gallery-container .gallery img {
+    width: 100%;
+    height: auto;
+  }
+}
 .about {
   padding: 0;
 }
@@ -400,7 +476,7 @@ p {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: whitesmoke;
+  background: #474747;
   color: #f8a5a8;
   line-height: 1.5;
   font-size: 0.875rem;

@@ -3,15 +3,29 @@
 @use '../util/mixins' as *;
 
 .gallery-container {
+  display: none;
+}
+
+@include tablet {
+  .gallery-container {
+    display: initial;
     width: 100%;
-  .gallery {
-    margin: 15px;
-    display: inline-block;
-    width: 220px;
-    right: 0;
-    img {
-      width: 100%;
-      height: auto;
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 25%;
+    }
+    .gallery {
+      // margin: 15px;
+      display: inline-block;
+      width: auto;
+      right: 0;
+      margin: 5px;
+      box-shadow: $dark-shadow;
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
