@@ -4,7 +4,7 @@ function AboutColumns() {
   return (
     <div className="row">
       <div className="column-1">
-        <h2>Column 1</h2>
+        <h2>Background</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
           quasi enim ipsam ratione dolorum suscipit placeat quia sunt eligendi
@@ -13,7 +13,7 @@ function AboutColumns() {
         </p>
       </div>
       <div className="column-2">
-        <h2>Column 2</h2>
+        <h2>Contact</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
           repellendus doloremque incidunt eligendi quibusdam minima, aut
@@ -22,7 +22,7 @@ function AboutColumns() {
         </p>
       </div>
       <div className="column-3">
-        <h2>Column 3</h2>
+        <h2>Work</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem
           aliquid illo necessitatibus laudantium minus fuga. Nulla est sapiente
