@@ -10,29 +10,87 @@
 }
 
 .column-1 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: $primary-3;
   color: white;
+  margin-bottom: .5rem;
+  box-shadow: $dark-shadow;
+  height: 30rem;
+  width: 90%;
+  @include center-auto
 }
 
 .column-2 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: $primary-4;
-  margin: 0 5px 0 5px;
   color: white;
+  margin-bottom: .5rem;
+  box-shadow: $dark-shadow;
+  height: 30rem;
+  width: 90%;
+  @include center-auto
 }
 
 .column-3 {
-  float: left;
-  width: 33%;
+  width: auto;
   padding: 10px;
   background-color: $primary-5;
+  margin-bottom: .5rem;
+  color: white;
+  box-shadow: $dark-shadow;
+  height: 30rem;
+  width: 90%;
+  @include center-auto
 }
 
 p {
   color: white;
 }
+
+@include tablet {
+  .row::after {
+    box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    width: 100%;
+  }
+  
+  .column-1 {
+    margin-left: .5%;
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-color: $primary-3;
+    color: white;
+    box-shadow: $dark-shadow;
+    height: 30rem;
+  }
+  
+  .column-2 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-color: $primary-4;
+    @include center-auto;
+    color: white;
+    box-shadow: $dark-shadow;
+    height: 30rem;
+  }
+  
+  .column-3 {
+    float: left;
+    height: 30rem;
+    width: 33%;
+    padding: 10px;
+    background-color: $primary-5;
+    color: white;
+    box-shadow: $dark-shadow;
+  }
+}
+
