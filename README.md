@@ -38,6 +38,16 @@ ___________________________________
 
 __________________________________
 
+### Day 4
+
+> Navbar 90% complete
+>
+> SlideShow Cancalation
+>
+> Much more Progress then Day 3
+
+__________________________________
+
 ### Useful Links
 
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)

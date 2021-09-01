@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars } from "react-icons/fa";
 import logo from '../img/RVLogo-_1_.svg';
-import { socials } from "../utils/const";
+
 
 //Makingf so the link goes to component, import said component and put it where the # is
 
@@ -41,16 +41,6 @@ function Navbar() {
                         <li className="link"><a href="#">Footer</a></li>
                     </ul>
                 </div>
-                <ul className={`social-icons ${showLinks && 'show'}`}>
-                    {socials.map((social) => {
-                    const { url, id, icon } = social;
-                    return (
-                    <li key={id}>
-                        <a href={url}>{icon}</a>
-                    </li>
-                    );
-                    })}
-                </ul>
             </div>
         </nav>
     )
