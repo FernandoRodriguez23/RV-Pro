@@ -40,7 +40,7 @@ __________________________________
 
 ### Day 4
 
-> NavBAr 90% complete
+> Navbar 90% complete
 >
 > SlideShow Cancalation
 >
