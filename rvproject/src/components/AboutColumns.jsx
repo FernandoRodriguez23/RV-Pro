@@ -22,7 +22,7 @@ function AboutColumns() {
         </p>
       </div>
       <div className="column-3">
-        <h2>Work</h2>
+        <h2>Services</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem
           aliquid illo necessitatibus laudantium minus fuga. Nulla est sapiente

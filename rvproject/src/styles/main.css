@@ -170,7 +170,7 @@ h4 {
 
 p {
   margin-bottom: 1.25rem;
-  color: #928787;
+  color: #878c92;
 }
 
 @media only screen and (min-width: 768px) {
@@ -199,7 +199,7 @@ p {
   }
 }
 .navbar {
-  background: #403a3a;
+  background: #363636;
   box-shadow: 0 5px 15px rbga(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -240,7 +240,7 @@ p {
   height: auto;
 }
 .navbar .nav-center .links li {
-  color: #6b6161;
+  color: #61666b;
   font-size: 1.5rem;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
@@ -370,6 +370,8 @@ p {
 
   .row {
     width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   .row h2 {
@@ -377,9 +379,9 @@ p {
   }
 
   .column-1 {
-    margin-left: 0.5%;
+    margin-left: 2.5%;
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: #d41118;
     color: white;
@@ -389,7 +391,7 @@ p {
 
   .column-2 {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: #ed1d23;
     margin-left: auto;
@@ -397,12 +399,13 @@ p {
     color: white;
     box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
     height: 30rem;
+    margin: 0 2.5% 0 2.5%;
   }
 
   .column-3 {
     float: left;
     height: 30rem;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: #f04248;
     color: white;
@@ -480,7 +483,7 @@ p {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #474747;
+  background: #262626;
   color: #f8a5a8;
   line-height: 1.5;
   font-size: 0.875rem;
