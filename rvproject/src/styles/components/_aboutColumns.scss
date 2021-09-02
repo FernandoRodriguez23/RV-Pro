@@ -21,7 +21,7 @@
   margin-bottom: .5rem;
   box-shadow: $dark-shadow;
   height: 30rem;
-  width: 90%;
+  width: 80%;
   @include center-auto
 }
 
@@ -33,7 +33,7 @@
   margin-bottom: .5rem;
   box-shadow: $dark-shadow;
   height: 30rem;
-  width: 90%;
+  width: 80%;
   @include center-auto
 }
 
@@ -45,12 +45,13 @@
   color: white;
   box-shadow: $dark-shadow;
   height: 30rem;
-  width: 90%;
+  width: 80%;
   @include center-auto
 }
 
 p {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @include tablet {
@@ -63,12 +64,18 @@ p {
 
   .row {
     width: 100%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    h2 {
+      text-align: center;
+    }
   }
   
   .column-1 {
-    margin-left: .5%;
+    margin-left: 2.5%;
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: $primary-3;
     color: white;
@@ -78,19 +85,20 @@ p {
   
   .column-2 {
     float: left;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: $primary-4;
     @include center-auto;
     color: white;
     box-shadow: $dark-shadow;
     height: 30rem;
+    margin: 0 2.5% 0 2.5%;
   }
   
   .column-3 {
     float: left;
     height: 30rem;
-    width: 33%;
+    width: 30%;
     padding: 10px;
     background-color: $primary-5;
     color: white;
