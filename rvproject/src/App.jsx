@@ -4,12 +4,17 @@ import About from "./components/About";
 import AboutColumns from "./components/AboutColumns"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer";
+// import background from './img/RvBackground.png'
 
 function App() {
   return (
     <div className="web-container">
-      <Navbar />
+      <div className="navabr">
+        <Navbar />
+      </div>
+    <div className="about">
       <About />
+    </div>
       {/* <Slideshow /> */}
       <AboutColumns />
       <Gallery />
