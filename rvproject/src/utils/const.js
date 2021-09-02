@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaFacebook, FaTwitter} from 'react-icons/fa'
-import {Gallery, About, Footer, Slideshow} from '../components'
+import {Gallery, About, Footer} from '../components'
 
 const style = {color: 'black'}
 
@@ -9,11 +9,6 @@ export const links = [
         id: 1,
         text: 'About',
         page: <About />
-    },
-    {
-        id: 2,
-        text: 'SlideShow',
-        page: <Slideshow />
     },
     {
         id: 3,

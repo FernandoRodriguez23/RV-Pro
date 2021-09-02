@@ -48,6 +48,16 @@ __________________________________
 
 __________________________________
 
+### Day 5
+
+> Website complete
+>
+> Background set 
+>
+> Finishing Touches
+
+__________________________________
+
 ### Useful Links
 
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)
