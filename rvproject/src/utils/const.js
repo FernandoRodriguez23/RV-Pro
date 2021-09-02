@@ -43,3 +43,8 @@ export const socials = [
     }
 ];
 
+export const images = [
+    {
+        url: './RvBackground'
+    }
+]
