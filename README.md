@@ -70,6 +70,8 @@ _______________________________
 
 ### Colors
 
+> Primary Colors Used
+>
 > Red: hsl(358, 85%, 50%)
 >
 > Grey: hsl(0, 0%, 24%)

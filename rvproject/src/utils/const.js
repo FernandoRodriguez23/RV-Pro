@@ -18,7 +18,7 @@ export const links = [
     {
         id: 4,
         text: 'Footer',
-        page: <Footer />
+        // page: <Footer />
     }
 ]
 
