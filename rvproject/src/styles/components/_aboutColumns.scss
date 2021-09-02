@@ -8,10 +8,16 @@
   display: table;
   clear: both;
 }
-// .row{
-//   margin: 10px;
-//   border-radius: $radius;
-// }
+ .row{
+   margin: 10px;
+   border-radius: $radius;
+   h2 {
+
+   
+   font-family: 'League Spartan', arial, helvetica, sans-serif;
+      font-weight: 550;
+   }
+ }
 
 .column-1 {
   width: auto;
@@ -20,7 +26,7 @@
   color: white;
   margin-bottom: 0.5rem;
   box-shadow: $dark-shadow;
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   @include center-auto;
 }
@@ -32,7 +38,7 @@
   color: white;
   margin-bottom: 0.5rem;
   box-shadow: $dark-shadow;
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   @include center-auto;
 }
@@ -44,7 +50,7 @@
   margin-bottom: 0.5rem;
   color: white;
   box-shadow: $dark-shadow;
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   @include center-auto;
 }
@@ -70,6 +76,8 @@ p {
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     h2 {
       text-align: center;
+      font-family: 'League Spartan', arial, helvetica, sans-serif;
+      font-weight: 550;
     }
   }
 
@@ -82,6 +90,7 @@ p {
     color: white;
     box-shadow: $dark-shadow;
     height: 50rem;
+    overflow: hidden;
   }
 
   .column-2 {

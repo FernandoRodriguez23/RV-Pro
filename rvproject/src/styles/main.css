@@ -312,6 +312,15 @@ p {
   clear: both;
 }
 
+.row {
+  margin: 10px;
+  border-radius: 0.25rem;
+}
+.row h2 {
+  font-family: "League Spartan", arial, helvetica, sans-serif;
+  font-weight: 550;
+}
+
 .column-1 {
   width: auto;
   padding: 10px;
@@ -319,7 +328,7 @@ p {
   color: white;
   margin-bottom: 0.5rem;
   box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -332,7 +341,7 @@ p {
   color: white;
   margin-bottom: 0.5rem;
   box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -345,7 +354,7 @@ p {
   margin-bottom: 0.5rem;
   color: white;
   box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
-  height: 30rem;
+  height: 45rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -372,6 +381,8 @@ p {
   }
   .row h2 {
     text-align: center;
+    font-family: "League Spartan", arial, helvetica, sans-serif;
+    font-weight: 550;
   }
 
   .column-1 {
@@ -383,6 +394,7 @@ p {
     color: white;
     box-shadow: 0 5px 15px rbga(0, 0, 0, 0.3);
     height: 50rem;
+    overflow: hidden;
   }
 
   .column-2 {
@@ -482,6 +494,28 @@ p {
 }
 .about .header h1 {
   color: #ed1d23;
+  font-family: "League Spartan", arial, helvetica, sans-serif;
+  font-weight: 550;
+  color: #ddd;
+}
+.about .header h2 {
+  color: #ed1d23;
+  font-family: "League Spartan", arial, helvetica, sans-serif;
+  font-weight: 450;
+  color: #ddd;
+}
+.about .header h3 {
+  font-family: "League Spartan", arial, helvetica, sans-serif;
+  font-weight: 550;
+  background: #ddd;
+  color: #222;
+  min-width: 25%;
+  max-width: 25%;
+  padding: 0.6em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.25rem;
 }
 .about section {
   padding: 0;
