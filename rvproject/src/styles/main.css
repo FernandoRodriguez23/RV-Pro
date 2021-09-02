@@ -372,6 +372,7 @@ p {
     width: 100%;
     margin-bottom: 5rem;
     margin-top: 5rem;
+    background-image: url("../img/PlaceHolder.PNG");
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   .row h2 {
