@@ -9,13 +9,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="web-container">
-      <div className="navabr">
+      <div className="navabar">
         <Navbar />
       </div>
     <div className="about">
       <About />
     </div>
-      {/* <Slideshow /> */}
       <AboutColumns />
       <Gallery />
       <Footer />

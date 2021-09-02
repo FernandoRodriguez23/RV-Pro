@@ -2,125 +2,109 @@
 @use '../util/variables' as *;
 @use '../util/mixins' as *;
 
-
-.navbar{
-    background: $grey-0;
-    box-shadow: $light-shadow;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-bottom: 20px;
-    overflow: hidden;
-    a{
-        text-decoration: none;
-        color: $primary-4;
+.navbar {
+  background: $grey-0;
+  box-shadow: $light-shadow;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+    color: $primary-4;
+  }
+  .nav-center {
+    .nav-header {
+      @include flex-space;
+      padding: 1rem;
     }
-    .nav-center{
-
-    
-    .nav-header{
-        @include flex-space;
-        padding: 1rem;
+    .nav-toggle {
+      font-size: 1.5rem;
+      color: $primary-4;
+      transition: $transition;
+      background: transparent;
+      outline: none;
+      border: none;
+      &:hover {
+        color: $primary-1;
+        transform: rotate(90deg);
+      }
     }
-    .nav-toggle{
-        font-size: 1.5rem;
-        color: $primary-4;
-        transition: $transition;
-        background: transparent;
-        outline: none;
-        border: none;
-        &:hover{
-            color: $primary-1;
-            transform: rotate(90deg);
-        }
-    }
-    .logo{
-        height: 30px;
+    .logo {
+      height: 30px;
     }
 
-    .links-container{
-        height: 0;
-        overflow: hidden;
-        &.show{
-            height: auto;
-        }
+    .links-container {
+      height: 0;
+      overflow: hidden;
+      &.show {
+        height: auto;
+      }
     }
 
     .links li {
-        color: $grey-2;
-        font-size: 1.5rem;
-        text-transform: capitalize;
-        letter-spacing: $spacing;
-        display: block;
-        padding: 0.5rem 1rem;
+      color: $grey-2;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      letter-spacing: $spacing;
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: $transition;
+      position: relative;
+      &::after {
+        @include psuedo;
+        height: 3px;
+        background: $primary-4;
+        position: absolute;
+        bottom: 0;
+        width: 0;
         transition: $transition;
-        position: relative;
-        &::after{
-            @include psuedo;
-            height: 3px;
-            background: $primary-4;
-            position: absolute;
-            bottom: 0;
-            width: 0;
-            transition: $transition;
+      }
+      &:hover {
+        background: $primary-9;
+        color: $primary-4;
+        padding-left: 1.5rem;
+        &::after {
+          width: 100%;
         }
-        &:hover{
-            background: $primary-9;
-            color: $primary-4;
-            padding-left: 1.5rem;
-            &::after{
-                width: 100%;
-            }
-        }
+      }
     }
-    
+  }
 }
-}
-
-
-
 
 @include tablet {
-    .navbar{
-        .nav-center{
-            max-width: 1200px;
-            @include center-auto;
-            @include flex-space;
-            padding: 1rem;
-            
-            .logo{
-                height: 40px;
-            }
+  .navbar {
+    .nav-center {
+      max-width: 1200px;
+      @include center-auto;
+      @include flex-space;
+      padding: 1rem;
 
-            .nav-header{
-                padding: 0;
-            }
-            .nav-toggle{
-                display: none;
-            }
-            .links-container{
-                height: auto;
-            }
-            .links{
-                display: flex;
-                li{
-                    padding: 0;
-                    margin: 0 1rem;
-                    &:hover{
-                        padding: 0;
-                        background: transparent;
-                    }
-                }
-            }
+      .logo {
+        height: 40px;
+      }
+
+      .nav-header {
+        padding: 0;
+      }
+      .nav-toggle {
+        display: none;
+      }
+      .links-container {
+        height: auto;
+      }
+      .links {
+        display: flex;
+        li {
+          padding: 0;
+          margin: 0 1rem;
+          &:hover {
+            padding: 0;
+            background: transparent;
+          }
         }
+      }
     }
+  }
 }
-
-
-
-
-
-
-
-
-
