@@ -35,10 +35,10 @@ function Navbar() {
                 </div>
                 <div className={`links-container ${showLinks && 'show'}`}>
                     <ul className="links">
-                        <li className="link"><a href="#">About</a></li>
+                        <li className="link"><a href="#">Home</a></li>
                         {/* <li className="link"><a href="#">SlideShow</a></li> */}
+                        <li className="link"><a href="#">Services</a></li>
                         <li className="link"><a href="#">Gallery</a></li>
-                        <li className="link"><a href="#">Footer</a></li>
                     </ul>
                 </div>
             </div>
