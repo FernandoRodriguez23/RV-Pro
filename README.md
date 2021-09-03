@@ -58,6 +58,16 @@ __________________________________
 
 __________________________________
 
+### Day 6
+
+> Polished Details
+>
+> De-bugging 
+>
+> Code Cleaning
+
+__________________________________
+
 ### Useful Links
 
 > [Wireframe 1](rvproject/src/img/WireFrame2.jpg)
